@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722628902094",
+    "project_id": "androidbuszjegy-4121a",
+    "storage_bucket": "androidbuszjegy-4121a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722628902094:android:1c6e561186fe04ffa3649f",
+        "android_client_info": {
+          "package_name": "com.example.buszjegy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbrbq-tUYM97J5qX4-Bx8yDAsJNTyGC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
