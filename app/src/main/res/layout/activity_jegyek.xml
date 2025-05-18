@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".jegyek">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Itt lesz a vásárlós felület!"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="356dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/edittext_viszonylat"
+        android:layout_margin="5dp"
+        android:hint="Írd be az útvonalat(pl.: Szeged-Baja)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/edittext_ar"
+        android:layout_margin="5dp"
+        android:hint="Írd be az árat (pl.: 950Ft)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_add"
+        android:text="Buszjegy hozzáadása"
+        android:background="#388E3C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:id="@+id/button_view"
+        android:text="Buszjegyeim"
+        android:background="#0288D1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
